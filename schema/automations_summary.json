@@ -1,0 +1,431 @@
+[
+  {
+    "id": "wflBfjlVIziQ5drQn",
+    "name": "Set Asiantuntija to Aki Pohjola",
+    "deploymentStatus": "undeployed",
+    "version": 7,
+    "liveVersion": null,
+    "triggerType": "When record matches conditions",
+    "actionTypes": [
+      "Update record",
+      "AI generate"
+    ],
+    "actionCount": 2,
+    "scriptCount": 0
+  },
+  {
+    "id": "wflOgjAhpXQdra5Fz",
+    "name": "Hyväksytty rahoituspäätös Slackiin",
+    "deploymentStatus": "deployed",
+    "version": 656,
+    "liveVersion": 656,
+    "triggerType": "When record updated",
+    "actionTypes": [
+      "AI generate",
+      "Send Slack message",
+      "—"
+    ],
+    "actionCount": 3,
+    "scriptCount": 0
+  },
+  {
+    "id": "wflLTC3dGCNkQ4s34",
+    "name": "Hyväksytystä testimoniaali",
+    "deploymentStatus": "deployed",
+    "version": 51,
+    "liveVersion": 51,
+    "triggerType": "When record matches conditions",
+    "actionTypes": [
+      "Create record"
+    ],
+    "actionCount": 1,
+    "scriptCount": 0
+  },
+  {
+    "id": "wfleGyrguam3GRbgb",
+    "name": "Projektin kuulumiset 30 päivää ennen loppua",
+    "deploymentStatus": "undeployed",
+    "version": 1063,
+    "liveVersion": null,
+    "triggerType": "When record matches conditions",
+    "actionTypes": [
+      "Send Slack message"
+    ],
+    "actionCount": 1,
+    "scriptCount": 0
+  },
+  {
+    "id": "wfl7m1m9B3Z9aOLiM",
+    "name": "Raportointiohje 30 päivää ennen deadline",
+    "deploymentStatus": "undeployed",
+    "version": 1219,
+    "liveVersion": null,
+    "triggerType": "When record matches conditions",
+    "actionTypes": [
+      "AI generate",
+      "Send Slack message"
+    ],
+    "actionCount": 2,
+    "scriptCount": 0
+  },
+  {
+    "id": "wflBJvcOo1wqRx6Dm",
+    "name": "Automation 2",
+    "deploymentStatus": "undeployed",
+    "version": 110,
+    "liveVersion": null,
+    "triggerType": "Schedule (cron)",
+    "actionTypes": [
+      "Send email (beta)",
+      "Find records"
+    ],
+    "actionCount": 2,
+    "scriptCount": 0
+  },
+  {
+    "id": "wflPVJ44ZKPGpyo6j",
+    "name": "Mikon muikkarit 30 päivää päätöksestä",
+    "deploymentStatus": "undeployed",
+    "version": 345,
+    "liveVersion": null,
+    "triggerType": "When record matches conditions",
+    "actionTypes": [
+      "AI generate",
+      "Send email (beta)"
+    ],
+    "actionCount": 2,
+    "scriptCount": 0
+  },
+  {
+    "id": "wflngJYnS4G7GBlSG",
+    "name": "asiakasrivien linkitys, jatkuva",
+    "deploymentStatus": "deployed",
+    "version": 90,
+    "liveVersion": 90,
+    "triggerType": "When record updated",
+    "actionTypes": [
+      "Run script"
+    ],
+    "actionCount": 1,
+    "scriptCount": 1
+  },
+  {
+    "id": "wflHYHRgCIa8aT6kO",
+    "name": "Toimenpiteet1",
+    "deploymentStatus": "deployed",
+    "version": 100,
+    "liveVersion": 100,
+    "triggerType": "When record updated",
+    "actionTypes": [
+      "Run script"
+    ],
+    "actionCount": 1,
+    "scriptCount": 1
+  },
+  {
+    "id": "wflAahyro3wWNb8dQ",
+    "name": "Toimenpiteet taulun muutokset",
+    "deploymentStatus": "deployed",
+    "version": 39,
+    "liveVersion": 39,
+    "triggerType": "When record updated",
+    "actionTypes": [
+      "Run script",
+      "—"
+    ],
+    "actionCount": 2,
+    "scriptCount": 1
+  },
+  {
+    "id": "wflPppOVempEBwrDH",
+    "name": "Toimenpideviestit, slack (ti-pe)",
+    "deploymentStatus": "deployed",
+    "version": 289,
+    "liveVersion": 289,
+    "triggerType": "Schedule (cron)",
+    "actionTypes": [
+      "Find records",
+      "Send Slack message",
+      "—",
+      "—"
+    ],
+    "actionCount": 4,
+    "scriptCount": 0
+  },
+  {
+    "id": "wflRivYJdK69rhZo1",
+    "name": "Viestiasetus-taulun muutokset",
+    "deploymentStatus": "deployed",
+    "version": 25,
+    "liveVersion": 25,
+    "triggerType": "When record updated",
+    "actionTypes": [
+      "Run script"
+    ],
+    "actionCount": 1,
+    "scriptCount": 1
+  },
+  {
+    "id": "wflwogRWFQUxvxwgH",
+    "name": "Toimenpideviestit, slack (ma)",
+    "deploymentStatus": "deployed",
+    "version": 290,
+    "liveVersion": 290,
+    "triggerType": "Schedule (cron)",
+    "actionTypes": [
+      "Find records",
+      "Send Slack message",
+      "—",
+      "—"
+    ],
+    "actionCount": 4,
+    "scriptCount": 0
+  },
+  {
+    "id": "wflsdoGlLlhdXNJ58",
+    "name": "Toimenpideviestit, email (ti-pe) copy",
+    "deploymentStatus": "deployed",
+    "version": 331,
+    "liveVersion": 331,
+    "triggerType": "Schedule (cron)",
+    "actionTypes": [
+      "Find records",
+      "Send email (beta)",
+      "—",
+      "—"
+    ],
+    "actionCount": 4,
+    "scriptCount": 0
+  },
+  {
+    "id": "wflj6qmS7aKA1wjPG",
+    "name": "Toimenpideviestit, email (ma)",
+    "deploymentStatus": "deployed",
+    "version": 331,
+    "liveVersion": 331,
+    "triggerType": "Schedule (cron)",
+    "actionTypes": [
+      "Send email (beta)",
+      "Find records",
+      "—",
+      "—"
+    ],
+    "actionCount": 4,
+    "scriptCount": 0
+  },
+  {
+    "id": "wfljOa3Mtob2KrA1t",
+    "name": "Vanhentuneiden toimenpiteiden poistaminen",
+    "deploymentStatus": "deployed",
+    "version": 96,
+    "liveVersion": 96,
+    "triggerType": "Schedule (cron)",
+    "actionTypes": [
+      "Find records",
+      "Run script",
+      "—",
+      "—"
+    ],
+    "actionCount": 4,
+    "scriptCount": 1
+  },
+  {
+    "id": "wflZKFBYRMjJrTsSI",
+    "name": "Airtable row value updated",
+    "deploymentStatus": "undeployed",
+    "version": 462,
+    "liveVersion": null,
+    "triggerType": "When record updated",
+    "actionTypes": [
+      "Run script"
+    ],
+    "actionCount": 1,
+    "scriptCount": 1
+  },
+  {
+    "id": "wflKRfZ14GrixR0Dp",
+    "name": "Airtable row value created",
+    "deploymentStatus": "deployed",
+    "version": 428,
+    "liveVersion": 428,
+    "triggerType": "When record created",
+    "actionTypes": [
+      "Run script"
+    ],
+    "actionCount": 1,
+    "scriptCount": 1
+  },
+  {
+    "id": "wflUxnJuhApC5ZUuY",
+    "name": "Airtable-severa integraatio laskutus",
+    "deploymentStatus": "undeployed",
+    "version": 34,
+    "liveVersion": null,
+    "triggerType": "When record matches conditions",
+    "actionTypes": [],
+    "actionCount": 0,
+    "scriptCount": 0
+  },
+  {
+    "id": "wflaqJN7IwWqRAbu9",
+    "name": "airtable-severa laskutusautomaatio",
+    "deploymentStatus": "undeployed",
+    "version": 49,
+    "liveVersion": null,
+    "triggerType": "When record updated",
+    "actionTypes": [
+      "Google Sheets: create row",
+      "—"
+    ],
+    "actionCount": 2,
+    "scriptCount": 0
+  },
+  {
+    "id": "wfl7icLzZbilKFLxk",
+    "name": "Automation 3",
+    "deploymentStatus": "undeployed",
+    "version": 24,
+    "liveVersion": null,
+    "triggerType": "When record updated",
+    "actionTypes": [
+      "—"
+    ],
+    "actionCount": 1,
+    "scriptCount": 0
+  },
+  {
+    "id": "wfldIHYhl0767fdKE",
+    "name": "komissiot kuukausisarakkeisiin",
+    "deploymentStatus": "deployed",
+    "version": 18,
+    "liveVersion": 18,
+    "triggerType": "When record updated",
+    "actionTypes": [
+      "Run script"
+    ],
+    "actionCount": 1,
+    "scriptCount": 1
+  },
+  {
+    "id": "wfl8vwXu6wHI5QLTC",
+    "name": "Liikevaihdon kirjaukset",
+    "deploymentStatus": "deployed",
+    "version": 42,
+    "liveVersion": 42,
+    "triggerType": "When record updated",
+    "actionTypes": [
+      "Run script"
+    ],
+    "actionCount": 1,
+    "scriptCount": 1
+  },
+  {
+    "id": "wflKTRdcFMFSH8j6H",
+    "name": "Tilikauden laskenta",
+    "deploymentStatus": "deployed",
+    "version": 51,
+    "liveVersion": 51,
+    "triggerType": "When webhook received",
+    "actionTypes": [
+      "Run script"
+    ],
+    "actionCount": 1,
+    "scriptCount": 1
+  },
+  {
+    "id": "wfl4bYDFg7UWppASo",
+    "name": "Päätöspäivä, ennusteet refresh",
+    "deploymentStatus": "deployed",
+    "version": 15,
+    "liveVersion": 15,
+    "triggerType": "Schedule (cron)",
+    "actionTypes": [
+      "Run script"
+    ],
+    "actionCount": 1,
+    "scriptCount": 1
+  },
+  {
+    "id": "wflnssQKhF7xBWg6a",
+    "name": "Bonusrajat",
+    "deploymentStatus": "deployed",
+    "version": 17,
+    "liveVersion": 17,
+    "triggerType": "When record updated",
+    "actionTypes": [
+      "Run script"
+    ],
+    "actionCount": 1,
+    "scriptCount": 1
+  },
+  {
+    "id": "wflfRx3msnYUe9HPL",
+    "name": "Hylätty rahoituspäätös Slackiin copy",
+    "deploymentStatus": "deployed",
+    "version": 634,
+    "liveVersion": 634,
+    "triggerType": "When record updated",
+    "actionTypes": [
+      "Send Slack message",
+      "AI generate",
+      "—"
+    ],
+    "actionCount": 3,
+    "scriptCount": 0
+  },
+  {
+    "id": "wflnI2c8M9bfeEADj",
+    "name": "Lähetetty hakemus Slackiin",
+    "deploymentStatus": "deployed",
+    "version": 606,
+    "liveVersion": 606,
+    "triggerType": "When record updated",
+    "actionTypes": [
+      "Send Slack message",
+      "AI generate",
+      "—"
+    ],
+    "actionCount": 3,
+    "scriptCount": 0
+  },
+  {
+    "id": "wflA62AwiIZgrtccL",
+    "name": "Tilikauden laskenta, scheduled",
+    "deploymentStatus": "deployed",
+    "version": 52,
+    "liveVersion": 52,
+    "triggerType": "Schedule (cron)",
+    "actionTypes": [
+      "Run script"
+    ],
+    "actionCount": 1,
+    "scriptCount": 1
+  },
+  {
+    "id": "wflgaKuv2QGlh94Kw",
+    "name": "Palvelupaketit",
+    "deploymentStatus": "deployed",
+    "version": 16,
+    "liveVersion": 16,
+    "triggerType": "When record updated",
+    "actionTypes": [
+      "Run script"
+    ],
+    "actionCount": 1,
+    "scriptCount": 1
+  },
+  {
+    "id": "wflu0DbPt7knMYoiz",
+    "name": "data_bug_bot",
+    "deploymentStatus": "deployed",
+    "version": 26,
+    "liveVersion": 26,
+    "triggerType": "Schedule (cron)",
+    "actionTypes": [
+      "Send Slack message",
+      "Run script"
+    ],
+    "actionCount": 2,
+    "scriptCount": 1
+  }
+]
