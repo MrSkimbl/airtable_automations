@@ -57,6 +57,10 @@ const linkField = table.getField("Liikevaihto-rivi");
 
 if (r) {
     // CASE 1: LIIKEVAIHTO → KOMISSIO
+    // 2026-05-05 KORJAUS: poistettu "Status" synkkauslistasta. Komissio.Status oli
+    // joskus revertoitunut käyttäjän valinnasta takaisin LV:n vanhaan arvoon
+    // (race-tilanne kaksisuuntaisessa synkassa). Nyt Komissio.Status pysyy aina
+    // käyttäjän asettamana — LV.Status päivittyy vain Case 2:sta (Komissio → LV).
     if (isLV(r.getCellValue("Kategoria"))) {
         const linked = r.getCellValue(linkField);
         if (linked && linked.length > 0) {
@@ -65,7 +69,7 @@ if (r) {
                 "Asiakas": r.getCellValue("Asiakas"),
                 "Asiantuntija": r.getCellValue("Asiantuntija"),
                 "Instrumentti": r.getCellValue("Instrumentti"),
-                "Status": r.getCellValue("Status"),
+                // "Status": EI synkata takaisin — käyttäjän valinta voittaa
                 "Valmistuminen/Lähetys": r.getCellValue("Valmistuminen/Lähetys"),
                 "Päätöspäivä, toteutunut": r.getCellValue("Päätöspäivä, toteutunut"),
                 "Myönnetty tukisumma": r.getCellValue("Myönnetty tukisumma"),
