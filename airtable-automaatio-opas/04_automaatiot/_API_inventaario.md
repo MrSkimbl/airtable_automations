@@ -3,7 +3,7 @@
 > Lähde: `GET /v0/meta/bases/app5bwxdTTUmbSyUK/automations`
 > Snapshot: [`../../schema/automations.json`](../../schema/automations.json) — päivitetty 2026-05-04
 
-**Yhteensä 31 automaatiota** — 22 deployattu, 9 undeployed.
+**Yhteensä 23 automaatiota** — 22 deployattu, 1 undeployed.
 
 ## Mitä Meta API EI anna
 
@@ -29,7 +29,7 @@ Näiden tietojen päivitys vaatii Airtable-UI:n manuaalisen tarkistuksen.
 | Liikevaihdon kirjaukset | When record updated | Run script | 42 | `wfl8vwXu6wHI5QLTC` |
 | Lähetetty hakemus Slackiin | When record updated | Send Slack → AI generate → — | 606 | `wflnI2c8M9bfeEADj` |
 | Palvelupaketit | When record updated | Run script | 16 | `wflgaKuv2QGlh94Kw` |
-| Päätöspäivä, ennusteet refresh | Schedule (cron) | Run script | 15 | `wfl4bYDFg7UWppASo` |
+| Päätöspäivä, ennusteet refresh | Schedule (cron) | Run script | 16 | `wfl4bYDFg7UWppASo` |
 | Tilikauden laskenta | Webhook in | Run script | 51 | `wflKTRdcFMFSH8j6H` |
 | Tilikauden laskenta, scheduled | Schedule (cron) | Run script | 52 | `wflA62AwiIZgrtccL` |
 | Toimenpideviestit, email (ma) | Schedule (cron) | Send email (beta) → Find records → — → — | 331 | `wflj6qmS7aKA1wjPG` |
@@ -41,21 +41,13 @@ Näiden tietojen päivitys vaatii Airtable-UI:n manuaalisen tarkistuksen.
 | Vanhentuneiden toimenpiteiden poistaminen | Schedule (cron) | Find records → Run script → — → — | 96 | `wfljOa3Mtob2KrA1t` |
 | Viestiasetus-taulun muutokset | When record updated | Run script | 25 | `wflRivYJdK69rhZo1` |
 
-## Undeployed / luonnokset (9)
+## Undeployed / luonnokset (1)
 
 Nämä eivät ole tuotannossa. Voi olla wip-luonnoksia, vanhoja kokeiluja tai pysäytettyjä automaatioita.
 
 | Nimi | Trigger | Toiminnot | Status | Workflow ID |
 |------|---------|-----------|--------|-------------|
 | Airtable row value updated | When record updated | Run script | undeployed | `wflZKFBYRMjJrTsSI` |
-| Airtable-severa integraatio laskutus | When record matches conditions |  | undeployed | `wflUxnJuhApC5ZUuY` |
-| airtable-severa laskutusautomaatio | When record updated | Google Sheets → — | undeployed | `wflaqJN7IwWqRAbu9` |
-| Automation 2 | Schedule (cron) | Send email (beta) → Find records | undeployed | `wflBJvcOo1wqRx6Dm` |
-| Automation 3 | When record updated | — | undeployed | `wfl7icLzZbilKFLxk` |
-| Mikon muikkarit 30 päivää päätöksestä | When record matches conditions | AI generate → Send email (beta) | undeployed | `wflPVJ44ZKPGpyo6j` |
-| Projektin kuulumiset 30 päivää ennen loppua | When record matches conditions | Send Slack | undeployed | `wfleGyrguam3GRbgb` |
-| Raportointiohje 30 päivää ennen deadline | When record matches conditions | AI generate → Send Slack | undeployed | `wfl7m1m9B3Z9aOLiM` |
-| Set Asiantuntija to Aki Pohjola | When record matches conditions | Update record → AI generate | undeployed | `wflBfjlVIziQ5drQn` |
 
 ## Päivitysohje
 
