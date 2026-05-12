@@ -2,7 +2,7 @@
 
 **Action type:** Generate text
 **Description:** Slack-automaatio
-**Filtteri:** Status = `Lähetetty` AND Kategoria ∈ {`Komissio`, `Projekti`}
+**Filtteri:** Status = `Lähetetty` AND Kategoria ∈ {`Komissio`, `Projekti`} AND `Valmistuminen/Lähetys` IS WITHIN previous 7 days
 **Model:** Default (GPT-4.1)
 **Randomness:** Low
 

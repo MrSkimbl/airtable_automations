@@ -11,9 +11,12 @@
 
 ## Toiminnot
 1. **Generate text (AI)** — ks. [`ai_prompt.md`](ai_prompt.md)
-   - Filtteri: Status = `Lähetetty` JA Kategoria ∈ {Komissio, Projekti}
+   - Filtteri: Status = `Lähetetty` JA Kategoria ∈ {Komissio, Projekti} JA `Valmistuminen/Lähetys` IS WITHIN previous 7 days
    - Malli: Default (GPT-4.1), Randomness: Low
 2. **Send Slack message** — kanava `#general`
+
+## Duplikaattisuoja
+`Valmistuminen/Lähetys` on alkuperäinen lähetyspäivä eikä päivity togglauksissa (Lähetetty → Täydennys → Lähetetty). Kun täydennys-pyyntö ja uudelleenlähetys tapahtuvat yli 7 päivää alkuperäisen lähetyksen jälkeen, AI-step ohitetaan eikä duplikaattiviestiä lähde.
 
 ## Datan tarpeet promptissa
 - Asiakas, Instrumentti, Asiantuntija (etunimi), Projektin koko €, Haettu tukisumma €
